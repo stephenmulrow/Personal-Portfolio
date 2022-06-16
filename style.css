@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(79, 77, 85);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(4, 24, 92, 0.897);
+    color: rgb(255, 255, 255);
+}
+
+
+h1 {
+    font-size: 48px;
+}
+
+nav ul {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    list-style-type: none;
+    margin-right: 25px;
+    color: white;
+}
+
+li a {
+    color: white;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+li:hover {
+    background-color: rgb(52, 140, 167);
+    transition: 1s;
+    animation: circle;  
+}
+
+.grad-pic {
+    border-radius: 100px;
+    box-shadow: 50px;
+}
+
+
+#about-me {
+    color: white;
+    font-size: 48px;
+}
+
+.float-right {
+    display: flex;
+    left: 200px;
+    bottom: 400px
+}
+
+p {
+    display: flex;
+    left: 250px;
+    bottom: 100px;
+    display: inline;
+    font-size: 24px;
+    text-align: justify;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 75% 25%;
+    grid-auto-columns: 150px;
+}
+
+.img-1 {
+    position: relative;
+    height: 450px;
+    width: 350px;
+    border: 25px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.img-1:hover {
+    opacity: 80%;
+}
+
+.my-first-assignment {
+    position: relative;
+    bottom: 50px;
+    left: 5px;
+    color: white;
+    font-size: 36px;
+}
+
+.container-2 {
+    position: relative;
+}
+
+.on-the-way {
+    position: relative;
+    bottom: 28px;
+    color: white;
+    font-size: 24px;
+}
+
+
+
+.coming-soon {
+    position: relative;
+    bottom: 28px;
+    color: white;
+    font-size: 24px;
+}
+
+
+.sweet-project {
+    position: relative;
+    bottom: 28px;
+    color: white;
+    font-size: 24px;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+}
+
+h3 {
+    color: white;
+    font-size: 48px;
+}
+
+#contact {
+    font-family: cursive;
+    display:inline-flex;
+    padding: 10px;
+    justify-content: space-around
+}
+
+.phone {
+    font-size: 24px;
+    color: white;
+}
+
+.phone {
+    font-size: 24px;
+    color: white;
+}
+
+.email {
+    font-size: 24px;
+    color: white;
+}
+
+.github a {
+    font-size: 24px;
+    color: white;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 28px;
+    color: white;
+}
